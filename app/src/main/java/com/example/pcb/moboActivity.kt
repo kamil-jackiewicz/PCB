@@ -7,5 +7,8 @@ class moboActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mobo)
+        val actionBar = supportActionBar
+        actionBar!!.title = "Mobo"
+        actionBar.setDisplayHomeAsUpEnabled(true)
     }
 }

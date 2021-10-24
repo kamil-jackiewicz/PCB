@@ -7,5 +7,8 @@ class fanActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fan)
+        val actionBar = supportActionBar
+        actionBar!!.title = "Fan"
+        actionBar.setDisplayHomeAsUpEnabled(true)
     }
 }

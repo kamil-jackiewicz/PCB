@@ -9,20 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PCB">
-        <activity android:name=".diskActivity"></activity>
-        <activity android:name=".ramActivity" />
-        <activity android:name=".towerActivity" />
-        <activity android:name=".fanActivity" />
-        <activity android:name=".moboActivity" />
-        <activity android:name=".psuActivity" />
-        <activity android:name=".gpuActivity" />
+        <activity android:name=".diskActivity"
+            android:parentActivityName=".SecondActivity" />
+
+        <activity android:name=".ramActivity"
+            android:parentActivityName=".SecondActivity"/>
+        <activity android:name=".towerActivity"
+            android:parentActivityName=".SecondActivity"/>
+        <activity android:name=".fanActivity"
+            android:parentActivityName=".SecondActivity"/>
+        <activity android:name=".moboActivity"
+            android:parentActivityName=".SecondActivity"/>
+        <activity android:name=".psuActivity"
+            android:parentActivityName=".SecondActivity"/>
+        <activity android:name=".gpuActivity"
+            android:parentActivityName=".SecondActivity"/>
         <activity
             android:name=".cpuActivity"
             android:parentActivityName=".SecondActivity" />
-        <activity
-            android:name=".CPU_Activity"
-            android:label="@string/title_activity_c_p_u_"
-            android:theme="@style/Theme.PCB.NoActionBar" />
+
         <activity
             android:name=".SecondActivity"
             android:parentActivityName=".MainActivity" />

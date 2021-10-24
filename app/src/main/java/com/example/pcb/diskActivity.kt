@@ -7,5 +7,8 @@ class diskActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_disk)
+        val actionBar = supportActionBar
+        actionBar!!.title = "Disk"
+        actionBar.setDisplayHomeAsUpEnabled(true)
     }
 }
