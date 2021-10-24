@@ -1,6 +1,8 @@
 package com.example.pcb
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class SecondActivity : AppCompatActivity() {
@@ -11,6 +13,11 @@ class SecondActivity : AppCompatActivity() {
         val actionBar = supportActionBar
         actionBar!!.title = "Second Activity"
         actionBar.setDisplayHomeAsUpEnabled(true)
-    }
 
+        val secondActivity: Button = findViewById(R.id.cpu_button)
+        secondActivity.setOnClickListener {
+            val Intent = Intent(this, cpuActivity::class.java)
+            startActivity(Intent)
+        }
+    }
 }
