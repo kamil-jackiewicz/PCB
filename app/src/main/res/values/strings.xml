@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">PCB</string>
     <string name="start">Start</string>
-    <string name="pc_builder">PC Builder</string>
+
     <string name="procesor">Procesor</string>
     <string name="karta_graficzna">Karta graficzna</string>
     <string name="p_yta_g_wna">Płyta główna</string>
@@ -111,4 +111,6 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="pc_builder">PC Builder</string>
+    <string name="pc_tower">pc_tower</string>
 </resources>
