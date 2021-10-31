@@ -122,5 +122,25 @@
     <string name="ram_image">ram_image</string>
     <string name="disk_image">disk_image</string>
     <string name="psu_image">psu_image</string>
+<string name="cpu_text">
+KROK 1: MONTAŻ PROCESORA \n\n
+Części/narzędzia: płyta główna, procesor \n
+Wyjmij płytę główną z opakowania antystatycznego i umieść ją na powierzchni roboczej. Znajdź gniazdo procesora, które powinno być pokryte plastikową zaślepką ochronną. \n
+W jednym z narożników plastikowej zaślepki, lub częściej na samym gnieździe, zobaczysz małą strzałkę – zwróć uwagę na jej położenie. \n
+Obok gniazda procesora zobaczysz małą metalową dźwignię. Naciśnij ją i delikatnie pociągnij na bok (z dala od gniazda), aby otworzyć tacę gniazda. \n
+Otwórz procesor i wyjmij go z opakowania. \n
+Podczas pracy z procesorem zachowaj szczególną ostrożność – zarówno procesor, jak i gniazdo procesora są delikatne i bardzo łatwo je uszkodzić. \n
+Trzymaj procesor za krawędzie – w żadnym wypadku nie dotykaj styków na spodzie chipa, ponieważ palce mogą pozostawić na nich kurz lub tłuszcz; staraj się też nie dotykać górnej części chipa.
 
+</string>
+    <string name="cpu_mounting_image">cpu_mounting_image</string>
+    <string name="cpu_text2">
+        W jednym rogu procesora zobaczysz strzałkę.
+        Wyrównaj ją ze strzałką na gnieździe i delikatnie umieść procesor na gnieździe.
+        Po delikatnym osadzeniu procesora możesz opuścić dźwignię i wcisnąć ją z powrotem na miejsce.
+        Opuszczenie dźwigni może wymagać użycia pewnej siły, w przeciwieństwie do osadzenia procesora! \n\n
+        Wskazówki! \n
+        Nie musisz zdejmować plastikowej zaślepki – naprężenie powstające podczas montażu procesora spowoduje, że zaślepka sama wyskoczy. Jeśli będziesz próbować zdjąć zaślepkę samodzielnie, może to skończyć się uderzeniem i uszkodzeniem kruchych styków znajdujących się pod spodem. \n
+        Procesor można zamontować tylko w jedną stronę i nie potrzeba do tego siły
+    </string>
 </resources>

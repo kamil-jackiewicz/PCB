@@ -54,6 +54,7 @@ class SecondActivity : AppCompatActivity() {
             val Intent = Intent(this, fanActivity::class.java)
             startActivity(Intent)
         }
+
     }
 
 }
