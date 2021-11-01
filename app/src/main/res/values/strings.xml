@@ -179,4 +179,29 @@ Porada od specjalistów: podczas mocowania układu chłodzącego do płyty głó
 
 W razie problemów: jeśli popełnisz błąd podczas montażu, nie panikuj. Usuń pastę termiczną (zarówno z rozpraszacza ciepła, jak i układu chłodzącego procesora) i ponownie ją nałóż, by ponownie dokonać montażu.
     </string>
+    <string name="ram_description1">KROK 4: MONTAŻ PAMIĘCI (RAM)
+Części/narzędzia: płyta główna, pamięć RAM, instrukcja obsługi płyty głównej
+
+Ustal, ile gniazd RAM ma Twoja płyta główna (większość ma dwa lub cztery). Jeśli zamierzasz wypełnić wszystkie dostępne gniazda RAM, po prostu włóż pamięć RAM. Jeśli nie zamierzasz wykorzystać wszystkich gniazd RAM, zapoznaj się z instrukcją obsługi, aby znaleźć właściwą konfigurację i odpowiednio je wypełnić.
+
+
+Porada od specjalistów: nacięcie między złotymi stykami nie jest wyśrodkowane. Upewnij się, że ustawiasz pamięć RAM prawidłowo za pomocą tego nacięcia, aby określić, która strona jest skierowana w górę, a która w dół.
+
+W razie problemów: o ile pamięć RAM stosunkowo łatwo osadza się na swoim miejscu, nie zawsze zatrzaskuje się idealnie za pierwszym razem. Jeśli próba włączenia komputera nie udaje się, pierwszą rzeczą, jaką powinieneś zrobić, jest ponowne osadzenie pamięci RAM. Niektóre płyty główne mają zatrzask (niewymagający obsługi), który pomaga w montażu. Wszystkie płyty główne mają co najmniej jeden zatrzask, który się porusza – zazwyczaj zatrzaskuje się na miejscu i jest mocowany do wgłębienia z boku pamięci RAM.</string>
+    <string name="psu_description1">
+        KROK 5: MONTAŻ ZASILACZA
+
+Części/narzędzia: zasilacz, obudowa, kable zasilacza, wkrętak krzyżakowy #2
+
+Rozpakuj zasilacz (lub po wykonaniu testu odłącz go od komponentów) i odłóż jego kable na bok (jeśli możesz).
+
+Spójrz na obudowę i sprawdź, gdzie ma zostać zamontowany zasilacz (prawdopodobnie na dole, blisko tylnej ścianki) i jak można go zorientować. Najlepiej ustawić zasilacz tak, aby jego wentylator był skierowany na zewnątrz obudowy (przez otwór wentylacyjny). Jeśli otwór wentylacyjny znajduje się na dole obudowy, możesz zamontować zasilacz do góry nogami, o ile dolny otwór wentylacyjny zapewni przyzwoity przepływ powietrza po zakończeniu składania komputera.
+
+Jeśli obudowa nie posiada otworów wentylacyjnych, zamontuj zasilacz w taki sposób, aby wentylator był skierowany do góry (do środka obudowy) i upewnij się, że ma wystarczająco dużo wolnego miejsca.
+    </string>
+    <string name="psu_description2">
+        Przymocuj zasilacz do obudowy za pomocą czterech śrubek dostarczonych z zasilaczem.
+
+Jeśli używasz zasilacza niemodułowego lub półmodułowego, nadeszła pora na przeprowadzenie zamocowanych kabli przez obudowę do miejsca, w którym mają się kończyć (skorzystaj z rozwiązań do zarządzania kablami, jeśli Twoja obudowa je posiada).
+    </string>
 </resources>
