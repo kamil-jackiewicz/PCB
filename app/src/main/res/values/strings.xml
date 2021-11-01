@@ -221,4 +221,20 @@ Podłącz zasilacz do płyty głównej. Istnieją dwa główne połączenia - 8-
 
 Porada od specjalistów: przed zamontowaniem płyty głównej sprawdź, czy obudowa ma zamontowane podpórki na płytę. Zazwyczaj wyglądają one jak nakrętki z gwintem na końcu. Nie wstawiaj niepotrzebnych podpórek.
     </string>
+    <string name="gpu_description1">
+        KROK 7: MONTAŻ PROCESORA GRAFICZNEGO
+
+Części/narzędzia: płyta główna, procesor graficzny, wkrętak krzyżakowy #2, instrukcja obsługi płyty głównej
+
+Znajdź gniazdo PCIe* x16 na płycie głównej. Będzie to najdłuższe gniazdo PCIe* i może mieć inny kolor niż pozostałe. Jeśli Twoja płyta główna ma więcej niż jedno gniazdo PCIe* x16, zobacz w instrukcji obsługi, czy któreś z nich powinno mieć priorytet. Jeśli można użyć dowolnego gniazda, wybierz je na podstawie tego, gdzie znajdują się pozostałe komponenty – procesor graficzny powinien mieć przestrzeń do wentylacji.
+
+W zależności od przypadku może być konieczne zdjęcie osłon gniazd we/wy (małe metalowe zatrzaski blokujące tylny panel obudowy), aby zmieścić porty we/wy procesora graficznego (HDMI*, DisplayPort*, DVI* itp.) i zapewnić ich dostępność z zewnątrz obudowy.
+    </string>
+    <string name="gpu_description2">
+        Wyjmij procesor graficzny z opakowania antystatycznego i ostrożnie wyrównaj go zarówno z tylnym wspornikiem mocującym, jak i z samym gniazdem, a następnie delikatnie wciśnij go do gniazda PCIe* x16 (możesz usłyszeć kliknięcie). W przypadku konieczności ponownego osadzenia procesora graficznego zatrzask PCIe* na płycie głównej może przesunąć się do pozycji zablokowanej.
+    </string>
+    <string name="gpu_description3">
+        Po prawidłowym osadzeniu GPU zamocuj go z tyłu obudowy za pomocą jednej lub dwóch śrubek. Jeśli Twój procesor graficzny wymaga pomocniczych złącz zasilania, podłącz go do zasilacza.
+    </string>
+
 </resources>
