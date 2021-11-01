@@ -144,4 +144,18 @@ Trzymaj procesor za krawędzie – w żadnym wypadku nie dotykaj styków na spod
         Procesor można zamontować tylko w jedną stronę i nie potrzeba do tego siły
     </string>
     <string name="zbudujmy_komputer">Zbudujmy komputer</string>
+    <string name="disk_description1">KROK 2: (OPCJONALNIE) MONTAŻ DYSKÓW SSD M.2
+
+Części/narzędzia: płyta główna, dysk SSD M.2, wkrętak krzyżakowy #0, instrukcja obsługi płyty głównej
+
+Jeśli chcesz zamontować dysk SSD M.2, teraz jest na to dobry moment. Najpierw znajdź gniazdo M.2 na płycie głównej. Jest to niewielka, pozioma szczelina z maleńką śrubką. Jeśli nie możesz go znaleźć, a znajdziesz kilka gniazd M.2 lub jeśli planujesz zamontować więcej niż jeden dysk M.2 SSD, zapoznaj się z instrukcją obsługi dołączoną do płyty głównej.
+
+Odkręć maleńką śrubkę wkrętakiem krzyżakowym #0. Uważaj, aby jej nie zgubić.
+
+Delikatnie wsuń dysk SSD M.2 do gniazda. Całkowicie osadzony dysk będzie odstawał od płyty głównej pod kątem około 35 stopni. Wciśnij dysk SSD do dołu i z powrotem załóż maleńką śrubkę, aby zablokować go na miejscu.</string>
+    <string name="disk_description2">
+        Porada od specjalistów: montaż dysku SSD M.2 może ograniczyć inne konfiguracje pamięci masowej (szczególnie w przypadku dysków SATA i PCIe* AIC), dlatego podczas planowania pamięci masowej należy zapoznać się z instrukcją obsługi płyty głównej.
+
+W razie problemów: jeśli płyta główna nie rozpoznaje nowo zamontowanego dysku M.2 SSD jako pamięci masowej, może być konieczne ręczne skonfigurowanie go w BIOS-ie (instrukcja obsługi płyty głównej zawiera instrukcje dotyczące BIOS-u).
+    </string>
 </resources>
