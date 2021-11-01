@@ -158,4 +158,25 @@ Delikatnie wsuń dysk SSD M.2 do gniazda. Całkowicie osadzony dysk będzie odst
 
 W razie problemów: jeśli płyta główna nie rozpoznaje nowo zamontowanego dysku M.2 SSD jako pamięci masowej, może być konieczne ręczne skonfigurowanie go w BIOS-ie (instrukcja obsługi płyty głównej zawiera instrukcje dotyczące BIOS-u).
     </string>
+    <string name="fan_description1">
+        KROK 3: MONTAŻ UKŁADU CHŁODZĄCEGO PROCESORA
+
+Części/narzędzia: płyta główna z zamontowanym procesorem, układ chłodzący procesora, pasta termiczna, instrukcja układu chłodzącego procesora
+
+Istnieją różne rodzaje układów chłodzących procesora. Dokładne instrukcje montażu znajdziesz w instrukcji układu chłodzącego procesora.
+
+Niektóre układy chłodzące wymagają wspornika montażowego. Płyta główna może mieć fabrycznie zamontowany wspornik; może być konieczne zdjęcie wspornika, jeśli urządzenie go nie wymaga, lub jego wymiana, jeśli do urządzenia potrzebny jest inny wspornik. Zrób to przed włożeniem płyty głównej do wnętrza obudowy.
+    </string>
+    <string name="fan_description2">
+        Niektóre układy chłodzące są dostarczane z pastą termiczną wstępnie nałożoną na materiał przewodzący (który znajduje się na procesorze), a inne nie. Jeśli układ chłodzący nie ma nałożonej pasty termicznej, przed umieszczeniem układu chłodzącego należy ją ręcznie nałożyć. Aby nałożyć pastę termiczną, wyciśnij małą ilość (nie większą niż ziarenko ryżu) na środek procesora. Następnie umieść układ chłodzący na procesorze – siła docisku odpowiednio rozprowadzi pastę termiczną.
+
+
+Porada od specjalistów: najpierw wyciśnij pastę na kawałek papieru, na wypadek gdyby z tubki wyszła duża kulka.
+
+Porada od specjalistów: jeśli układ chłodzący ma wstępnie nałożoną pastę termiczną, a chcesz użyć innej pasty, możesz usunąć fabryczną pastę za pomocą alkoholu izopropylowego 90% i niestrzępiącej się ściereczki (zalecamy ręcznik papierowy do czyszczenia samochodów).
+
+Porada od specjalistów: podczas mocowania układu chłodzącego do płyty głównej dokręcaj śrubki stopniowo, używając wzoru krzyżowego, aby równomiernie rozłożyć nacisk. Jeżeli nie masz pewności, jak to zrobić, proces ten powinien być szczegółowo opisany w instrukcji obsługi.
+
+W razie problemów: jeśli popełnisz błąd podczas montażu, nie panikuj. Usuń pastę termiczną (zarówno z rozpraszacza ciepła, jak i układu chłodzącego procesora) i ponownie ją nałóż, by ponownie dokonać montażu.
+    </string>
 </resources>
