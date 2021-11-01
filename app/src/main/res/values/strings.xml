@@ -204,4 +204,21 @@ Jeśli obudowa nie posiada otworów wentylacyjnych, zamontuj zasilacz w taki spo
 
 Jeśli używasz zasilacza niemodułowego lub półmodułowego, nadeszła pora na przeprowadzenie zamocowanych kabli przez obudowę do miejsca, w którym mają się kończyć (skorzystaj z rozwiązań do zarządzania kablami, jeśli Twoja obudowa je posiada).
     </string>
+    <string name="mobo_description1">
+        KROK 6: MONTAŻ PŁYTY GŁÓWNEJ
+
+Części/narzędzia: obudowa, płyta główna, osłona gniazd we/wy (jeśli nie jest przymocowana do płyty głównej), wkrętak krzyżakowy #2, śrubki, instrukcja obsługi płyty głównej
+
+Jeśli płyta główna ma niezamocowaną osłonę gniazd we/wy – prostokątną płytkę metalową z wycięciami na porty płyty głównej – musisz najpierw zatrzasnąć ją z tyłu obudowy (upewnij się, że jest prawidłowo zorientowana). Osłony gniazd we/wy mają zazwyczaj ostre krawędzie, więc uważaj na palce.
+
+Po umieszczeniu osłony gniazd we/wy możesz zamontować płytę główną. Sprawdź dokładnie, czy wszystkie kable są przeprowadzone we właściwe miejsca, a następnie umieść płytę główną (najpierw wyrównaj ją z osłoną gniazd we/wy). Za pomocą wkrętaka krzyżakowego #2 zamocuj pierwszą śrubkę (środkową), aby przytrzymać płytę główną na miejscu. Nie przeciągaj płyty głównej po podpórkach przymocowanych do obudowy.
+    </string>
+    <string name="mobo_description2">
+        Liczba śrubek potrzebnych do zamontowania płyty głównej będzie się różnić w zależności od płyty głównej, ale pełnowymiarowa płyta główna ATX zazwyczaj wymaga 9 śrubek. Wypełnij wszystkie dostępne otwory na śruby.
+
+Podłącz zasilacz do płyty głównej. Istnieją dwa główne połączenia - 8-stykowe złącze procesora w górnej części płyty i 24-wtykowe złącze z boku.
+
+
+Porada od specjalistów: przed zamontowaniem płyty głównej sprawdź, czy obudowa ma zamontowane podpórki na płytę. Zazwyczaj wyglądają one jak nakrętki z gwintem na końcu. Nie wstawiaj niepotrzebnych podpórek.
+    </string>
 </resources>
