@@ -15,8 +15,8 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="326dp"
+            android:layout_height="440dp"
             android:contentDescription="@string/start"
             app:srcCompat="@drawable/pc_tower" />
 
@@ -36,15 +36,30 @@
             android:layout_height="match_parent"
             android:background="@drawable/white_background">
 
-            <Button
-                android:id="@+id/start_button"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
-                android:text="@string/zbudujmy_komputer"
-                android:textSize="36sp"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:layout_editor_absoluteX="0dp" />
+                android:layout_height="match_parent"
+                android:layout_margin="32dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <Button
+                    android:id="@+id/start_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="34dp"
+                    android:background="@drawable/black_button"
+                    android:text="@string/zbudujmy_komputer"
+                    android:textSize="36sp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+
+                    app:backgroundTint="@color/black" />
+            </LinearLayout>
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
