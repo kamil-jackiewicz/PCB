@@ -11,7 +11,7 @@ class SecondActivity : AppCompatActivity() {
         setContentView(R.layout.activity_second)
 
         val actionBar = supportActionBar
-        actionBar!!.title = "Second Activity"
+        actionBar!!.title = "Wybierz komponent"
         actionBar.setDisplayHomeAsUpEnabled(true)
 
         val secondActivity_cpu: Button = findViewById(R.id.cpu_button)
