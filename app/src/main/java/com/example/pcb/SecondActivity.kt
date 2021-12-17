@@ -67,6 +67,10 @@ class SecondActivity : AppCompatActivity() {
             if (flag) {
                 button_cpu_color.backgroundTintList = getColorStateList(android.R.color.holo_red_dark)
                 flag = false
+                secondActivity_cpu.setOnClickListener {
+                    val Intent = Intent(this, cpuActivity_amd::class.java)
+                    startActivity(Intent)
+                }
             }else{
                 button_cpu_color.backgroundTintList = getColorStateList(android.R.color.holo_blue_dark)
                 flag = true

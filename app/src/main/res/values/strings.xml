@@ -122,7 +122,7 @@
     <string name="ram_image">ram_image</string>
     <string name="disk_image">disk_image</string>
     <string name="psu_image">psu_image</string>
-<string name="cpu_text">
+    <string name="cpu_text">
 KROK 1: MONTAŻ PROCESORA \n\n
 Części/narzędzia: płyta główna, procesor \n
 Wyjmij płytę główną z opakowania antystatycznego i umieść ją na powierzchni roboczej. Znajdź gniazdo procesora, które powinno być pokryte plastikową zaślepką ochronną. \n
@@ -143,6 +143,7 @@ Trzymaj procesor za krawędzie – w żadnym wypadku nie dotykaj styków na spod
         Nie musisz zdejmować plastikowej zaślepki – naprężenie powstające podczas montażu procesora spowoduje, że zaślepka sama wyskoczy. Jeśli będziesz próbować zdjąć zaślepkę samodzielnie, może to skończyć się uderzeniem i uszkodzeniem kruchych styków znajdujących się pod spodem. \n
         Procesor można zamontować tylko w jedną stronę i nie potrzeba do tego siły
     </string>
+    <string name="cpu_text_amd">AMD montowanie</string>
     <string name="zbudujmy_komputer">Zbudujmy komputer</string>
     <string name="disk_description1">KROK 2: (OPCJONALNIE) MONTAŻ DYSKÓW SSD M.2
 

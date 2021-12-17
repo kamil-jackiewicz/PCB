@@ -9,20 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PCB">
-        <activity android:name=".diskActivity"
+        <activity android:name=".cpuActivity_amd"></activity>
+        <activity
+            android:name=".diskActivity"
             android:parentActivityName=".SecondActivity" />
-        <activity android:name=".ramActivity"
-            android:parentActivityName=".SecondActivity"/>
-        <activity android:name=".towerActivity"
-            android:parentActivityName=".SecondActivity"/>
-        <activity android:name=".fanActivity"
-            android:parentActivityName=".SecondActivity"/>
-        <activity android:name=".moboActivity"
-            android:parentActivityName=".SecondActivity"/>
-        <activity android:name=".psuActivity"
-            android:parentActivityName=".SecondActivity"/>
-        <activity android:name=".gpuActivity"
-            android:parentActivityName=".SecondActivity"/>
+        <activity
+            android:name=".ramActivity"
+            android:parentActivityName=".SecondActivity" />
+        <activity
+            android:name=".towerActivity"
+            android:parentActivityName=".SecondActivity" />
+        <activity
+            android:name=".fanActivity"
+            android:parentActivityName=".SecondActivity" />
+        <activity
+            android:name=".moboActivity"
+            android:parentActivityName=".SecondActivity" />
+        <activity
+            android:name=".psuActivity"
+            android:parentActivityName=".SecondActivity" />
+        <activity
+            android:name=".gpuActivity"
+            android:parentActivityName=".SecondActivity" />
         <activity
             android:name=".cpuActivity"
             android:parentActivityName=".SecondActivity" />
@@ -37,4 +45,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
