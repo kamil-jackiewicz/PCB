@@ -65,10 +65,10 @@ class SecondActivity : AppCompatActivity() {
         val button_cpu_color = findViewById<Button>(R.id.cpu_button)
         switch_cpu_bar.setOnClickListener {
             if (flag) {
-                button_cpu_color.backgroundTintList = getColorStateList(android.R.color.holo_purple)
+                button_cpu_color.backgroundTintList = getColorStateList(android.R.color.holo_red_dark)
                 flag = false
             }else{
-                button_cpu_color.backgroundTintList = getColorStateList(android.R.color.holo_green_dark)
+                button_cpu_color.backgroundTintList = getColorStateList(android.R.color.holo_blue_dark)
                 flag = true
             }
         }
