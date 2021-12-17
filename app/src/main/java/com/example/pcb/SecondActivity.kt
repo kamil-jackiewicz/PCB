@@ -1,12 +1,16 @@
 package com.example.pcb
 
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.widget.Button
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.SwitchCompat
 
 class SecondActivity : AppCompatActivity() {
 
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
@@ -56,6 +60,17 @@ class SecondActivity : AppCompatActivity() {
             val Intent = Intent(this, fanActivity::class.java)
             startActivity(Intent)
         }
+        var flag = true;
+        val switch_cpu_bar = findViewById<SwitchCompat>(R.id.switch_intel_amd)
+        val button_cpu_color = findViewById<Button>(R.id.cpu_button)
+        switch_cpu_bar.setOnClickListener {
+            if (flag) {
+                button_cpu_color.backgroundTintList = getColorStateList(android.R.color.holo_purple)
+                flag = false
+            }else{
+                button_cpu_color.backgroundTintList = getColorStateList(android.R.color.holo_green_dark)
+                flag = true
+            }
+        }
     }
-
 }
