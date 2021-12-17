@@ -6,9 +6,11 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class SecondActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
+
 
         val actionBar = supportActionBar
         actionBar!!.title = "Wybierz komponent"
@@ -54,7 +56,6 @@ class SecondActivity : AppCompatActivity() {
             val Intent = Intent(this, fanActivity::class.java)
             startActivity(Intent)
         }
-
     }
 
 }

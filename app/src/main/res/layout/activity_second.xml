@@ -105,18 +105,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
 
-    <Switch
+    <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/switch_intel_amd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/intel_lub_amd"
         android:textColor="@color/white"
+        android:textOff="Intel"
+        android:textOn="AMD"
+        app:showText="true"
+        android:thumb="@drawable/switch_thumb"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.984"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.007"
+        app:track="@drawable/switch_track"
 
         />
 
@@ -154,7 +158,7 @@
         android:contentDescription="@string/mobo_image"
         app:layout_constraintBottom_toTopOf="@+id/mobo_button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
