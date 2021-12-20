@@ -69,4 +69,29 @@ fun test_checkIfMainActivityStarted(){
         onView(withId(R.id.cpuAMDActivity)).check(matches(isDisplayed()))
         pressBack()
     }
+    @Test
+    fun test_check_allButtonActivities(){
+        onView(withId(R.id.start_button)).perform(click())
+        onView(withId(R.id.cpu_button)).perform(click())
+        onView(withId(R.id.cpuIntelActivity)).check(matches(isDisplayed()))
+        pressBack()
+        onView(withId(R.id.switch_intel_amd)).perform(click())
+        onView(withId(R.id.cpu_button)).perform(click())
+        onView(withId(R.id.cpuAMDActivity)).check(matches(isDisplayed()))
+        pressBack()
+        onView(withId(R.id.gpu_button)).perform(click())
+        pressBack()
+        onView(withId(R.id.mobo_button)).perform(click())
+        pressBack()
+        onView(withId(R.id.disk_button)).perform(click())
+        pressBack()
+        onView(withId(R.id.fan_button)).perform(click())
+        pressBack()
+        onView(withId(R.id.psu_button)).perform(click())
+        pressBack()
+        onView(withId(R.id.ram_button)).perform(click())
+        pressBack()
+        onView(withId(R.id.tower_button)).perform(click())
+        pressBack()
+    }
 }
