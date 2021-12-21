@@ -6,10 +6,10 @@
     android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cpuIntelActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#0E1822"
-        android:id="@+id/cpuIntelActivity"
         tools:context=".cpuActivity">
 
 
@@ -31,13 +31,22 @@
                 android:textColor="@color/white"
                 android:textSize="20dp" />
 
-            <ImageView
+
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/disk_mounting_image"
                 android:layout_width="wrap_content"
                 android:layout_height="303dp"
                 android:layout_marginTop="10dp"
                 android:contentDescription="montowanie_cpu"
-                app:srcCompat="@drawable/cpu_mounting" />
+                app:srcCompat="@drawable/cpu_mounting"
+                app:zoomage_animateOnReset="true"
+                app:zoomage_autoCenter="true"
+                app:zoomage_autoResetMode="UNDER"
+                app:zoomage_maxScale="10"
+                app:zoomage_minScale="0.5"
+                app:zoomage_restrictBounds="false"
+                app:zoomage_translatable="true"
+                app:zoomage_zoomable="true" />
 
             <TextView
                 android:id="@+id/disk_description2"

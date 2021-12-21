@@ -30,13 +30,22 @@
                 android:textColor="@color/white"
                 android:textSize="20dp" />
 
-            <ImageView
+
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/disk_mounting_image"
                 android:layout_width="wrap_content"
                 android:layout_height="303dp"
                 android:layout_marginTop="10dp"
                 android:contentDescription="montowanie_gpu"
-                app:srcCompat="@drawable/gpu_mounting1" />
+                app:srcCompat="@drawable/gpu_mounting1"
+                app:zoomage_animateOnReset="true"
+                app:zoomage_autoCenter="true"
+                app:zoomage_autoResetMode="UNDER"
+                app:zoomage_maxScale="10"
+                app:zoomage_minScale="0.5"
+                app:zoomage_restrictBounds="false"
+                app:zoomage_translatable="true"
+                app:zoomage_zoomable="true" />
 
             <TextView
                 android:id="@+id/disk_description2"
@@ -45,13 +54,23 @@
                 android:text="@string/mobo_description2"
                 android:textColor="@color/white"
                 android:textSize="20dp" />
-            <ImageView
+
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/disk_mounting_image2"
                 android:layout_width="wrap_content"
                 android:layout_height="303dp"
                 android:layout_marginTop="10dp"
                 android:contentDescription="montowanie_gpu"
-                app:srcCompat="@drawable/gpu_mounting2" />
+                app:srcCompat="@drawable/gpu_mounting2"
+                app:zoomage_animateOnReset="true"
+                app:zoomage_autoCenter="true"
+                app:zoomage_autoResetMode="UNDER"
+                app:zoomage_maxScale="10"
+                app:zoomage_minScale="0.5"
+                app:zoomage_restrictBounds="false"
+                app:zoomage_translatable="true"
+                app:zoomage_zoomable="true" />
+
             <TextView
                 android:id="@+id/disk_description3"
                 android:layout_width="wrap_content"
