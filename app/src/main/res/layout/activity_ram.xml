@@ -23,7 +23,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/disk_description"
+                android:id="@+id/ram_description1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/ram_description1"
@@ -45,7 +45,13 @@
                 app:zoomage_restrictBounds="false"
                 app:zoomage_translatable="true"
                 app:zoomage_zoomable="true" />
-
+            <TextView
+                android:id="@+id/ram_description2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ram_description2"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
 
         </LinearLayout>
 

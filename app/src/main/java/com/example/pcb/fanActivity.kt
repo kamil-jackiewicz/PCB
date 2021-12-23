@@ -8,7 +8,7 @@ class fanActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fan)
         val actionBar = supportActionBar
-        actionBar!!.title = "Fan"
+        actionBar!!.title = "Chłodzenie"
         actionBar.setDisplayHomeAsUpEnabled(true)
     }
 }
