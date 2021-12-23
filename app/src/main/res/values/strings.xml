@@ -108,10 +108,8 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-
     <string name="pc_tower">pc_tower</string>
     <string name="pc_builder">PC Builder</string>
     <string name="cpu_image">cpu_image</string>
@@ -147,7 +145,7 @@ Trzymaj procesor za krawędzie – w żadnym wypadku nie dotykaj styków na spod
     <string name="zbudujmy_komputer">Zbudujmy komputer</string>
     <string name="disk_description1">KROK 2: (OPCJONALNIE) MONTAŻ DYSKÓW SSD M.2\n\n
 
-Części/narzędzia: płyta główna, dysk SSD M.2, wkrętak krzyżakowy #0, instrukcja obsługi płyty głównej\n
+Części\n &#160;&#160;&#9679;płyta główna\n &#160;&#160;&#9679;dysk SSD M.2\n &#160;&#160;&#9679; wkrętak krzyżakowy\n &#160;&#160;&#9679;instrukcja obsługi płyty głównej\n\n
 
 Jeśli chcesz zamontować dysk SSD M.2, teraz jest na to dobry moment. Najpierw znajdź gniazdo M.2 na płycie głównej. Jest to niewielka, pozioma szczelina z maleńką śrubką. Jeśli nie możesz go znaleźć, a znajdziesz kilka gniazd M.2 lub jeśli planujesz zamontować więcej niż jeden dysk M.2 SSD, zapoznaj się z instrukcją obsługi dołączoną do płyty głównej.\n
 
@@ -162,7 +160,7 @@ Delikatnie wsuń dysk SSD M.2 do gniazda. Całkowicie osadzony dysk będzie odst
     <string name="fan_description1">
         KROK 3: MONTAŻ UKŁADU CHŁODZĄCEGO PROCESORA\n\n
 
-Części/narzędzia: płyta główna z zamontowanym procesorem, układ chłodzący procesora, pasta termiczna, instrukcja układu chłodzącego procesora\n
+Części\n &#160;&#160;&#9679;płyta główna z zamontowanym procesorem\n &#160;&#160;&#9679;układ chłodzący procesora\n &#160;&#160;&#9679;pasta termiczna\n &#160;&#160;&#9679;instrukcja układu chłodzącego procesora\n\n
 
 Istnieją różne rodzaje układów chłodzących procesora. Dokładne instrukcje montażu znajdziesz w instrukcji układu chłodzącego procesora.\n
 
@@ -181,7 +179,7 @@ Podczas mocowania układu chłodzącego do płyty głównej dokręcaj śrubki st
       W razie problemów: jeśli popełnisz błąd podczas montażu, nie panikuj. Usuń pastę termiczną (zarówno z rozpraszacza ciepła, jak i układu chłodzącego procesora) i ponownie ją nałóż, by ponownie dokonać montażu.</font>
     </string>
     <string name="ram_description1">KROK 4: MONTAŻ PAMIĘCI (RAM)\n\n
-Części/narzędzia: płyta główna, pamięć RAM, instrukcja obsługi płyty głównej\n
+Części\n &#160;&#160;&#9679;płyta główna, pamięć RAM\n &#160;&#160;&#9679;instrukcja obsługi płyty głównej\n\n
 
         Ustal, ile gniazd RAM ma Twoja płyta główna (większość ma dwa lub cztery). Jeśli zamierzasz wypełnić wszystkie dostępne gniazda RAM, po prostu włóż pamięć RAM. Jeśli nie zamierzasz wykorzystać wszystkich gniazd RAM, zapoznaj się z instrukcją obsługi, aby znaleźć właściwą konfigurację i odpowiednio je wypełnić.\n\n</string>
 
@@ -191,47 +189,55 @@ Części/narzędzia: płyta główna, pamięć RAM, instrukcja obsługi płyty g
       W razie problemów: o ile pamięć RAM stosunkowo łatwo osadza się na swoim miejscu, nie zawsze zatrzaskuje się idealnie za pierwszym razem. Jeśli próba włączenia komputera nie udaje się, pierwszą rzeczą, jaką powinieneś zrobić, jest ponowne osadzenie pamięci RAM. Niektóre płyty główne mają zatrzask (niewymagający obsługi), który pomaga w montażu. Wszystkie płyty główne mają co najmniej jeden zatrzask, który się porusza – zazwyczaj zatrzaskuje się na miejscu i jest mocowany do wgłębienia z boku pamięci RAM.</font>
 </string>
 
-<string name="psu_description1">
+    <string name="psu_description1">
         KROK 5: MONTAŻ ZASILACZA\n\n
 
-Części/narzędzia: zasilacz, obudowa, kable zasilacza, wkrętak krzyżakowy #2\n
+Części\n &#160;&#160;&#9679;zasilacz\n &#160;&#160;&#9679;obudowa\n &#160;&#160;&#9679;kable zasilacza\n &#160;&#160;&#9679;wkrętak krzyżakowy\n\n
 
 Rozpakuj zasilacz (lub po wykonaniu testu odłącz go od komponentów) i odłóż jego kable na bok (jeśli możesz).\n
 
 Spójrz na obudowę i sprawdź, gdzie ma zostać zamontowany zasilacz (prawdopodobnie na dole, blisko tylnej ścianki) i jak można go zorientować. Najlepiej ustawić zasilacz tak, aby jego wentylator był skierowany na zewnątrz obudowy (przez otwór wentylacyjny). Jeśli otwór wentylacyjny znajduje się na dole obudowy, możesz zamontować zasilacz do góry nogami, o ile dolny otwór wentylacyjny zapewni przyzwoity przepływ powietrza po zakończeniu składania komputera.\n
 
 Jeśli obudowa nie posiada otworów wentylacyjnych, zamontuj zasilacz w taki sposób, aby wentylator był skierowany do góry (do środka obudowy) i upewnij się, że ma wystarczająco dużo wolnego miejsca.
-    </string><string name="psu_description2">
+    </string>
+    <string name="psu_description2">
         Przymocuj zasilacz do obudowy za pomocą czterech śrubek dostarczonych z zasilaczem.\n
 
 Jeśli używasz zasilacza niemodułowego lub półmodułowego, nadeszła pora na przeprowadzenie zamocowanych kabli przez obudowę do miejsca, w którym mają się kończyć (skorzystaj z rozwiązań do zarządzania kablami, jeśli Twoja obudowa je posiada).\n
-    </string><string name="mobo_description1">
+    </string>
+    <string name="mobo_description1">
         KROK 6: MONTAŻ PŁYTY GŁÓWNEJ\n\n
 
-Części/narzędzia: obudowa, płyta główna, osłona gniazd we/wy (jeśli nie jest przymocowana do płyty głównej), wkrętak krzyżakowy #2, śrubki, instrukcja obsługi płyty głównej\n
+Części\n &#160;&#160;&#9679;obudowa\n &#160;&#160;&#9679;płyta główna\n &#160;&#160;&#9679;osłona gniazd we/wy (jeśli nie jest przymocowana do płyty głównej)\n &#160;&#160;&#9679;wkrętak krzyżakowy\n &#160;&#160;&#9679;śrubki\n &#160;&#160;&#9679;instrukcja obsługi płyty głównej\n\n
 
 Jeśli płyta główna ma niezamocowaną osłonę gniazd we/wy – prostokątną płytkę metalową z wycięciami na porty płyty głównej – musisz najpierw zatrzasnąć ją z tyłu obudowy (upewnij się, że jest prawidłowo zorientowana). Osłony gniazd we/wy mają zazwyczaj ostre krawędzie, więc uważaj na palce.\n
 
 Po umieszczeniu osłony gniazd we/wy możesz zamontować płytę główną. Sprawdź dokładnie, czy wszystkie kable są przeprowadzone we właściwe miejsca, a następnie umieść płytę główną (najpierw wyrównaj ją z osłoną gniazd we/wy). Za pomocą wkrętaka krzyżakowego #2 zamocuj pierwszą śrubkę (środkową), aby przytrzymać płytę główną na miejscu. Nie przeciągaj płyty głównej po podpórkach przymocowanych do obudowy.\n
-    </string><string name="mobo_description2">
+    </string>
+    <string name="mobo_description2">
         Liczba śrubek potrzebnych do zamontowania płyty głównej będzie się różnić w zależności od płyty głównej, ale pełnowymiarowa płyta główna ATX zazwyczaj wymaga 9 śrubek. Wypełnij wszystkie dostępne otwory na śruby.\n
 
 Podłącz zasilacz do płyty głównej. Istnieją dwa główne połączenia - 8-stykowe złącze procesora w górnej części płyty i 24-wtykowe złącze z boku.\n\n
 
 
-        <font color="#DBA800"> <b><big>Wskazówki!</big></b>\n\n przed zamontowaniem płyty głównej sprawdź, czy obudowa ma zamontowane podpórki na płytę. Zazwyczaj wyglądają one jak nakrętki z gwintem na końcu. Nie wstawiaj niepotrzebnych podpórek.</font>
-    </string><string name="gpu_description1">
+        <font color="#DBA800"> <b><big>Wskazówki!</big></b>\n\n Przed zamontowaniem płyty głównej sprawdź, czy obudowa ma zamontowane podpórki na płytę. Zazwyczaj wyglądają one jak nakrętki z gwintem na końcu. Nie wstawiaj niepotrzebnych podpórek.</font>
+    </string>
+    <string name="gpu_description1">
         KROK 7: MONTAŻ PROCESORA GRAFICZNEGO\n\n
 
-Części/narzędzia: płyta główna, procesor graficzny, wkrętak krzyżakowy #2, instrukcja obsługi płyty głównej\n
+Części\n &#160;&#160;&#9679;płyta główna\n &#160;&#160;&#9679;procesor graficzny\n &#160;&#160;&#9679;wkrętak krzyżakowy\n &#160;&#160;&#9679;instrukcja obsługi płyty głównej\n\n
 
 Znajdź gniazdo PCIe* x16 na płycie głównej. Będzie to najdłuższe gniazdo PCIe* i może mieć inny kolor niż pozostałe. Jeśli Twoja płyta główna ma więcej niż jedno gniazdo PCIe* x16, zobacz w instrukcji obsługi, czy któreś z nich powinno mieć priorytet. Jeśli można użyć dowolnego gniazda, wybierz je na podstawie tego, gdzie znajdują się pozostałe komponenty – procesor graficzny powinien mieć przestrzeń do wentylacji.\n
 
 W zależności od przypadku może być konieczne zdjęcie osłon gniazd we/wy (małe metalowe zatrzaski blokujące tylny panel obudowy), aby zmieścić porty we/wy procesora graficznego (HDMI*, DisplayPort*, DVI* itp.) i zapewnić ich dostępność z zewnątrz obudowy.\n
-    </string><string name="gpu_description2">
+    </string>
+    <string name="gpu_description2">
         <font color="#DBA800"> Wyjmij procesor graficzny z opakowania antystatycznego i ostrożnie wyrównaj go zarówno z tylnym wspornikiem mocującym, jak i z samym gniazdem, a następnie delikatnie wciśnij go do gniazda PCIe* x16 (możesz usłyszeć kliknięcie). W przypadku konieczności ponownego osadzenia procesora graficznego zatrzask PCIe* na płycie głównej może przesunąć się do pozycji zablokowanej.</font>
-    </string><string name="gpu_description3">
-        <font color="#DBA800">   Po prawidłowym osadzeniu GPU zamocuj go z tyłu obudowy za pomocą jednej lub dwóch śrubek. Jeśli Twój procesor graficzny wymaga pomocniczych złącz zasilania, podłącz go do zasilacza.</font>
-    </string><string name="switch_text_Intel">Intel</string><string name="switch_text_AMD">AMD</string>
+    </string>
+    <string name="gpu_description3">
+        <font color="#DBA800"> Po prawidłowym osadzeniu GPU zamocuj go z tyłu obudowy za pomocą jednej lub dwóch śrubek. Jeśli Twój procesor graficzny wymaga pomocniczych złącz zasilania, podłącz go do zasilacza.</font>
+    </string>
+    <string name="switch_text_Intel">Intel</string>
+    <string name="switch_text_AMD">AMD</string>
 
-    </resources>
+</resources>
