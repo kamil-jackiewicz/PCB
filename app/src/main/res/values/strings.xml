@@ -141,7 +141,8 @@ Trzymaj procesor za krawędzie – w żadnym wypadku nie dotykaj styków na spod
          Nie musisz zdejmować plastikowej zaślepki – naprężenie powstające podczas montażu procesora spowoduje, że zaślepka sama wyskoczy. Jeśli będziesz próbować zdjąć zaślepkę samodzielnie, może to skończyć się uderzeniem i uszkodzeniem kruchych styków znajdujących się pod spodem.\n
          Procesor można zamontować tylko w jedną stronę i nie potrzeba do tego siły</font>
     </string>
-    <string name="cpu_text_amd">AMD montowanie</string>
+    <string name="cpu_text_amd">KROK 1: MONTAŻ PROCESORA \n\n
+        Części:\n &#160;&#160;&#9679;płyta główna\n  &#160;&#160;&#9679;procesor\n\nMontaż procesora AMD rozpoczynamy od odbezpieczenia gniazda na płycie głównej. W tym celu należy odciągnąć do góry znajdującą się obok gniazda metalową dźwignię. Następnie możemy przejść do wyjęcia procesora z plastikowej wytłoczki. Należy to zrobić bardzo powoli i ostrożnie!. Podczas trzymania procesora palcami, starajmy się nie dotykać niepotrzebnie jego metalowej powierzchni. Zatłuszczona powierzchnia znacząco utrudni wymianę ciepła. Poprawna orientacja procesorów AMD w gnieździe jest oznaczana za pomocą małej złotej strzałki znajdującej się na gnieździe oraz procesorze - zarówno na wierzchu, jak i po stronie nóżek (patrz zdjęcia powyżej). Gdy znaleźliśmy już oznaczenia, możemy umieścić ostrożnie procesor w gnieździe. Nóżki podzespołu muszą całkowicie wejść w podstawę gniazda tak, aby płytka procesora zrównała się z nim poziomem. Gdy mamy pewność, że procesor pewnie leży na swoim miejscu, możemy zablokować gniazdo używając znajdującej się obok dźwigni.</string>
     <string name="zbudujmy_komputer">Zbudujmy komputer</string>
     <string name="disk_description1">KROK 2: (OPCJONALNIE) MONTAŻ DYSKÓW SSD M.2\n\n
 
