@@ -240,5 +240,40 @@ W zależności od przypadku może być konieczne zdjęcie osłon gniazd we/wy (m
     </string>
     <string name="switch_text_Intel">Intel</string>
     <string name="switch_text_AMD">AMD</string>
+    <string name="montowanie_cpu">montowanie_cpu</string>
+    <string name="tower_text">
+KROK 2: Obudowy do komputerów \n\n
+        Zanim zaczniesz wybierać komponenty, powinieneś wziąć pod uwagę obudowę, a przynajmniej jej rozmiar.
 
+Najważniejszą rzeczą, o której należy pamiętać podczas wyboru obudowy jest to, gdzie zamierzasz umieścić komputer. Ostateczna lokalizacja Twojego komputera wyznaczy jego dopuszczalny rozmiar oraz pomoże Ci w zdecydowaniu, czy różne zaawansowane funkcje obudowy warte są większego wydatku. Przykładowo, prawdopodobnie nie warto płacić za boczny panel z hartowanego szkła, jeśli komputer ukryty będzie pod Twoim biurkiem.
+Obudowy są zazwyczaj dostępne w trzech rozmiarach: Full Tower, Mid Tower i Mini Tower. Są to bardzo ogólne kategorie (rozmiary obudów nie są znormalizowane wśród producentów), ale są one zależne od rozmiaru płyty głównej.
+</string>
+    <string name="tower_text2">
+
+Obudowy Full Tower\n
+
+Obudowy Full Tower zaprojektowane są tak, by pomieścić zarówno płyty główne Extended-ATX, jak i standardowe, pełnowymiarowe płyty główne ATX. Mierzą one zazwyczaj około 56–61 cm wysokości, 46–51 cm długości oraz ponad 20 cm szerokości.\n
+
+Obudowa Full Tower będzie zapewne niezbędna, jeśli chcesz użyć płyty głównej Extended-ATX (chociaż wybrane obudowy Mid Tower również pomieszczą płytę główną Extended-ATX) lub jeśli planujesz montaż rozbudowanego układu chłodzenia lub dodatkowej pamięci masowej. Mimo, że w obudowach Full Tower można również użyć płyty głównej Mini-ITX, uwzględnienie jej w konstrukcji nie zapewnia wyraźnych korzyści.\n\n
+
+Obudowy Mid Tower\n
+
+Obudowy Mid Tower zaprojektowane są tak, by pomieścić standardowe, pełnowymiarowe płyty główne ATX. Zasadniczo najpopularniejsze są obudowy Mid Tower. Ich wymiary mogą się znacznie różnić, ale zazwyczaj obudowy te mierzą około 46–51 cm wysokości, 43–51 cm długości i 15–20 cm szerokości.
+
+Obudowy Mid Tower są zazwyczaj wystarczająco przestronne, by pomieścić zestaw komponentów do gier obejmujący kilka kart graficznych, kilka dysków twardych i przyzwoity system chłodzenia.\n\n
+
+Obudowy Mini Tower\n
+
+Obudowy Mini Tower, lub też konstrukcje niewielkich rozmiarów (SFF), są kompaktowe i zaprojektowane tak, by pomieścić liczne mniejsze płyty główne, takie jak płyty główne Mini-ITX.\n
+
+Choć SFF przebyły długą drogę w kilku ostatnich generacjach, obudowy Mini Tower – zwłaszcza te wykorzystujące płyty główne Mini-ITX – wymagają starannego rozplanowania komponentów (być może będziesz zmuszony do użycia komponentów przeznaczonych specjalnie do małych obudów, takich jak procesory graficzne o połowie długości) i systemu chłodzenia, co pozostawia niewiele miejsca na przyszłą modernizację.
+
+Z tego powodu nie polecamy SFF początkującym konstruktorom, choć ich wykorzystanie może być ciekawym wyzwaniem, jeśli masz już na koncie parę złożonych jednostek.\n
+
+Gdy już ustalisz, jak dużo miejsca potrzebujesz, poszukaj obudowy odpowiadającej tej wielkości. Jeśli nie jesteś nastawiony na konkretny rozmiar, lepiej jest wybrać większą obudowę. Prawdopodobnie zauważysz, że łatwiej pracuje się z większą obudową, a w przyszłości bezproblemowo zmodernizujesz swój komputer.
+
+Jednocześnie pamiętajmy, że choć nieco większa obudowa jest dobra, to znacznie większa już niekoniecznie: w przypadku nieprawidłowego chłodzenia może dojść do przegrzania podzespołów.
+
+Wszystkie rozmiary obudów są dostępne w różnych przedziałach cenowych, więc znalezienie obudowy odpowiadającej dostępnemu budżetowi nie powinno być trudne. Droższe obudowy mogą posiadać funkcje premium i udogodnienia, takie jak wytłumienie, wysokiej jakości materiały konstrukcyjne, wyjmowane klatki na dyski i bardziej wymyślne rozwiązania do porządkowania kabli, ale te funkcje zazwyczaj nie mają zauważalnego wpływu na wydajność.
+    </string>
 </resources>

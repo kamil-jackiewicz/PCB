@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PCB">
-        <activity android:name=".cpuActivity_amd"></activity>
+        <activity
+            android:name=".cpuActivity_amd"
+            android:parentActivityName=".SecondActivity" />
         <activity
             android:name=".diskActivity"
             android:parentActivityName=".SecondActivity" />
@@ -40,10 +42,8 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
